@@ -1,26 +1,26 @@
 class Calculadora {
     sumar(a, b) {
-        return 0
+        return a+b
     }
 
     restar(a, b) {
-        return 0
+        return a-b
     }
 
     multiplicar(a, b) {
-        return 0
+        return a*b
     }
 
     dividir(a, b) {
-        return 0
+        return a/b
     }
 
     potencia(base, exponente) {
-        return 0
+        return Math.pow(base, exponente)
     }
 
     raizCuadrada(a) {
-        return 0
+        return Math.sqrt(a)
     }
 }
 
