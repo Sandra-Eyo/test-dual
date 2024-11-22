@@ -12,6 +12,9 @@ class Calculadora {
     }
 
     dividir(a, b) {
+        if (b = 0) {
+            throw 'No se puede dividir por cero.'
+        }
         return a/b
     }
 
@@ -20,6 +23,9 @@ class Calculadora {
     }
 
     raizCuadrada(a) {
+        if(a<0) {
+            throw 'No se puede calcular la raíz cuadrada de un número negativo.'
+        }
         return Math.sqrt(a)
     }
 }
