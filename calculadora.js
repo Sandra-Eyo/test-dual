@@ -12,7 +12,7 @@ class Calculadora {
     }
 
     dividir(a, b) {
-        if (b = 0) {
+        if (b === 0) {
             throw 'No se puede dividir por cero.'
         }
         return a/b
